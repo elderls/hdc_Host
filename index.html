@@ -10,9 +10,10 @@
 </head>
 <body>
     <div class="container">
+
         <div class="section-navebar">
             <nav>
-                <i class="navebar-logo"><img src="/img/hdchostlogo.png" alt="Logo hDC"></i>
+                <a href="#"><img class="navebar-logo" src="/img/hdchostlogo.png" alt="Logo hDC"></a>
                 <ul class="navebar-items">
                     <li><a href="*">Principal</a></li>
                     <li><a href="*">Planos</a></li>
@@ -21,99 +22,108 @@
                 </ul>
             </nav>
         </div>
-        <section class="outdoor">
-            <h1>hDC Host</h1>
-            <p>Os melhores planos para qualquer tipo de projeto!</p>
-        </section>
 
-        <section class="attributes">
-            <div>
+        <main>
+            <section class="outdoor">
+                <h1>hDC Host</h1>
+                <p>Os melhores planos para qualquer tipo de projeto!</p>
+            </section>
+    
+            <section class="attributes">
                 <ul>
                     <li class="attr-security">
-                        <i class="fa-solid fa-lock-keyhole"></i>
+                        <i class="fas fa-shield-alt"></i>
                         <h2>Segurança</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaque quaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaquequaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
                     </li>
                     <li class="attr-rocket">
-                        <i class="fa-thin fa-rocket"></i>
-                        <h2>Segurança</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaque quaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
+                        <i class="fas fa-rocket"></i>
+                        <h2>Velocidade</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaquequaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
                     </li>
                     <li class="attr-suport">
-                        <i class="fa-sharp fa-solid fa-headset"></i>
-                        <h2>Segurança</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaque quaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
+                        <i class="fas fa-comments"></i>
+                        <h2>Suporte</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo non aliquid neque! Laudantium reprehenderit atque, eos impedit asperiores, eligendi autem eaquequaerat provident sed mollitia saepe, quidem sit maiores doloremque!</p>
                     </li>
                 </ul>
-            </div>
-        </section>
+            </section>
+    
+            <section class="plan-container">
+                <h1>Planos e Preços</h1>
+                <p>Selecione o plano perfeito para você</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$15/mês</li> 
+                            <li class="plan-name">padrão</li> 
+                            <li>2GB de espaço em disco</li> 
+                            <li>10 Sub-dominios</li>
+                            <li>25 Contas de e-mail</li> 
+                            <li>C-panel</li> 
+                            <li>Suporte 24/7</li> 
+                            <li class="plan-tbn">Selecionar</li> 
+                        </ul>
+                    </div>     
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$30/mês</li> 
+                            <li class="plan-name">dedicado</li> 
+                            <li>5GB de espaço em disco</li> 
+                            <li>20 Sub-dominios</li>
+                            <li>50 Contas de e-mail</li> 
+                            <li>C-panel</li> 
+                            <li>Suporte 24/7</li> 
+                            <li class="plan-tbn">Selecionar</li> 
+                        </ul>
+                    </div>     
+                    <div class="plan">
+                        <ul>
+                            <li class="price recommended">R$50/mês</li> 
+                            <li class="plan-name">decidado plua</li> 
+                            <li>20GB de espaço em disco</li> 
+                            <li>100 Sub-dominios</li>
+                            <li>100 Contas de e-mail</li> 
+                            <li>C-panel</li> 
+                            <li>Suporte 24/7</li> 
+                            <li class="plan-tbn recommended">Selecionar</li> 
+                        </ul>
+                    </div>     
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$100/mês</li> 
+                            <li class="plan-name">padrão</li> 
+                            <li>20GB de espaço em disco</li> 
+                            <li>200 Sub-dominios</li>
+                            <li>200 Contas de e-mail</li> 
+                            <li>C-panel</li> 
+                            <li>Suporte 24/7</li> 
+                            <li class="plan-tbn">Selecionar</li> 
+                        </ul>
+                    </div>                                                                                           
+                </div>
+            </section>
 
-        <section class="plan">
-            <div>
-                <ul>
-                    <li  class="box-plan card-1">
-                        <h3>R$15/mês</h3>
-                        <p>padrão</p>
-                        <p>2GB de espaço em disco</p>
-                        <p>10 Sub-dominios</p>
-                        <p>25 Contas de e-mail</p>
-                        <p>C-panel</p>
-                        <p>Suporte 24/7</p>
-                        <button class="box-botton">Selecionar</button>
-                    </li>
+            <section class="search-domain">
+                <h2>Busca um dominio</h2>
+                <p>Veja se o dominio que voce deseja está disponível</p>
+                <form action="">
+                    <input type="text" name="domain" placeholder="Digite seu dominio">
+                    <input type="submit" value="Buscar Domínio">
+                </form>
+            </section>
 
-                    <li  class="box-plan card-2">
-                        <h3>R$30mês</h3>
-                        <p>Dedicado</p>
-                        <p>5GB de espaço em disco</p>
-                        <p>20 Sub-dominios</p>
-                        <p>50 Contas de e-mail</p>
-                        <p>C-panel</p>
-                        <p>Suporte 24/7</p>
-                        <button class="box-botton">Selecionar</button>
-                    </li>
-                    
-                    <li  class="box-plan card-3">
-                        <h3>R$15/mês</h3>
-                        <p>Dedicado Plus</p>
-                        <p>1GB de espaço em disco</p>
-                        <p>100 Sub-dominios</p>
-                        <p>100 Contas de e-mail</p>
-                        <p>C-panel</p>
-                        <p>Suporte 24/7</p>
-                        <button class="box-botton box-emphasis" >Selecionar</button>
-                    </li>
-                    
-                    <li  class="box-plan card-4">
-                        <h3>R$15/mês</h3>
-                        <p>Claud</p>
-                        <p>20GB de espaço em disco</p>
-                        <p>200 Sub-dominios</p>
-                        <p>200 Contas de e-mail</p>
-                        <p>C-panel</p>
-                        <p>Suporte 24/7</p>
-                        <button class="box-botton">Selecionar</button>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="search-domain">
-            <h1>Busca um dominio</h1>
-            <p>Veja se o dominio que voce deseja está disponível</p>
-            <form action="">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-        <section class="contact">
-            <h2>Entre em Contato</h2>
-            <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seus negocios</p>
-            <form action="">
-                <input type="text" name="nome" placeholder="Nome">
-                <input type="email" name="email" placeholder="E-mail">
-                <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                <input type="submit" value="Enviar">
-        </section>
+            <section class="contact-container">
+                <h2>Entre em Contato</h2>
+                <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seus negocios</p>
+                <form action="">
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+            </section>
+        </main>
+
         <footer>
             <p><a href="*">Elder Lima @2024</a></p>
         </footer>

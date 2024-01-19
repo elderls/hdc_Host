@@ -1,0 +1,109 @@
+/* geral */
+
+body, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3 {
+    color: #333;
+}
+
+p {  
+    color: #70747A;
+}
+
+/* Navegação */
+
+.section-navebar {
+    width: 100%;
+    height: 80px;
+    background-color: #232A31;
+    padding: 0 2em;    
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+}
+
+.navebar-logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navebar-items {
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+}
+
+.navebar-items li {
+
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+
+    
+}
+
+.navebar-items li a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+.navebar-items li:hover {
+    color:#a3a0a0;
+}
+
+.navbtn {
+    padding: 15px 20px;
+    background-color: #2cc76a ;
+    border-radius: 5px;
+    color: #080808;
+    font-weight: bold;
+    
+}
+
+.navbtn:hover {
+    background-color: #88dbaa;
+}
+
+/* banner */
+
+
+.outdoor {
+    width: 100%;
+    height: 100px;
+    background-image: url(/img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+
+.outdoor h1, p {
+    color: white;
+    text-align: center;
+    justify-items: center;   
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.outdoor h1 {
+    font-size: 54px;
+}
+
+.outdoor p {
+    font-size: 27px;
+    letter-spacing: 4px;
+    
+}
